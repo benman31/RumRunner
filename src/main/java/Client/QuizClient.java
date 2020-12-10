@@ -1,7 +1,8 @@
+package Client;
+
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.net.Socket;
-import java.net.UnknownHostException;
 import java.util.Scanner;
 
 /**
@@ -20,7 +21,7 @@ public class QuizClient {
     final String CODE_QUESTION = "QUESTION";
 
     /**
-     * Establishes a connection to QuizClient through a Socket.
+     * Establishes a connection to Client.QuizClient through a Socket.
      * The method then receives code by passing the Socket InputStream object to a Scanner with delimiter set to '~'
      * which allows codes and their messages to be parsed one by one. Codes NAME, PLAYAGAIN, and QUESTION require
      * user responses submitted back to the QuizServer. This is done via Socket outputStream passed through
@@ -89,7 +90,7 @@ public class QuizClient {
      }
 
     /**
-     * A simple driver method that constructs a QuizClient object and requests user input via console to obtain
+     * A simple driver method that constructs a Client.QuizClient object and requests user input via console to obtain
      * a valid IP address and port number of a QuizServer with which to connect;
      * @param args Command line arguments are not used for this method
      * @throws IOException if IP address or Port number do not exist or are invalid
