@@ -154,7 +154,7 @@ public class QuizService implements Runnable {
                 result = CODE_MSG + DELIMITER + "Sorry, that's not it! The correct answer is ";
                 break;
             case CATEGORY:
-                result = CODE_QUESTION + DELIMITER + "The category is:";
+                result = CODE_QUESTION + DELIMITER + "The category is: ";
                 break;
             case GOODBYE:
                 result = CODE_MSG + DELIMITER + "Thanks for playing, see you next time!" + DELIMITER;
