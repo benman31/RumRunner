@@ -1,3 +1,24 @@
+# Introduction
+
+This "endless Jeopardy quiz game" was the final assignment of a second year programming course at UPEI and represents the culmulation of introductory object-oriented programming principles.<br/>
+
+The app consists of both server- and client-side code written in Java using a simple custom protocol. The main goal of the assignment was to introduce basic client-server architecture, working with a real API (in this case, JService, a repositiory of Jeopardy questions), and to use some of the more advanced Java libraries that were introduced near the end of the course such as I/O streaming, parellization with threads, and lambda functions.<br/>
+
+The project was completed in two stages with deliverable 1 involving the implementation of the client-side code against a black-boxed server. Deliverable 2 then involved implementing the server code against the functioning client code.<br/>
+
+## Running the project
+
+- Clone the repository locally and open the project in your IDE of choice (IntelliJ using Gradle for building is recommended)
+- Run the server code first from the `main` method in `src/main/java/Server/QuizServer.java`
+- Next Run the client code from `main` method in `src/main/java/Client/QuizClient.java`
+- The console will first prompt for an IP address, simply enter `localhost`
+- The console will then prompt for a port number, it is set to `7777` by default
+- Enter your name and test your skill!
+
+# Original Assignment Instructions
+
+The rest of the documentation was written by Dr. Andrew Godbout at UPEI and details the original assignment specifications
+
 # Project: Quiz Server
 
 For this project you will create a Quiz Server and Client. The Quiz server
