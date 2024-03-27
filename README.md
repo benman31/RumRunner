@@ -6,6 +6,10 @@ The app consists of both server- and client-side code written in Java using a si
 
 The project was completed in two stages with deliverable 1 involving the implementation of the client-side code against a black-boxed server. Deliverable 2 then involved implementing the server code against the functioning client code.<br/>
 
+**Disclaimer**</br>
+Please keep in mind this was a second year university assignment - I'm older and wiser now but I'm also pretty proud of the effort that went into it back when I was a baby programmer :)
+
+
 ## Running the project
 
 - Clone the repository locally and open the project in your IDE of choice (IntelliJ using Gradle for building is recommended)
@@ -14,6 +18,8 @@ The project was completed in two stages with deliverable 1 involving the impleme
 - The console will first prompt for an IP address, simply enter `localhost`
 - The console will then prompt for a port number, it is set to `7777` by default
 - Enter your name and test your skill!
+
+- A suite of unit tests was also written in the JUnit framework and can be found under `src/test/java`
 
 # Original Assignment Instructions
 
